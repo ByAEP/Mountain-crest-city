@@ -1,0 +1,56 @@
+/* HEADER & NAVIGATION (MOBILE FIRST) */
+.site-header {
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #E5E7EB;
+  padding: 0 24px;
+
+  .header-container {
+    max-width: var(--max-width-content);
+    height: var(--header-height);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  /* Hamburger Menu Button  */
+  .mobile-menu-btn {
+    display: block;               
+    background: none;
+    border: none;
+    font-size: 28px;             
+    color: var(--color-primary);
+    cursor: pointer;
+    padding: 4px 8px;
+    line-height: 1;
+  }
+
+  /* Navigation Links  */
+  .main-nav {
+    display: none;              
+
+    &.open {
+      display: block;                
+    }
+
+    ul {
+      display: flex;
+      flex-direction: column;       
+      list-style: none;
+      gap: 16px;
+      padding: 16px 0;
+    }
+
+    a {
+      text-decoration: none;
+      color: #4B5563;
+      font-size: 14px;
+      font-weight: 600;
+
+      &.active,
+      &:hover {
+        color: var(--color-secondary);
+      }
+    }
+  }
+}

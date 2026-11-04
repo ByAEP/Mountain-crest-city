@@ -1,0 +1,18 @@
+/* DESKTOP BREAKPOINT OVERRIDES */
+@media (min-width: 769px) {
+  .site-header {
+    .mobile-menu-btn {
+      display: none !important;      
+    }
+
+    .main-nav {
+      display: block !important;   
+
+      ul {
+        flex-direction: row;         
+        gap: 28px;
+        padding: 0;
+      }
+    }
+  }
+}

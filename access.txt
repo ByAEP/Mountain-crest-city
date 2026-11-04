@@ -1,0 +1,23 @@
+--------- Dreamhost ----------
+URL: https://www.dreamhost.com
+EMAIL:11074761@uvu.edu
+Pass: Joksan177!
+
+PASS: 
+
+----- Free Domain -----
+xxx.dreamhosters.com
+
+
+-----SFTP User --------
+USER:Mountaincrest_user
+PASS: PE?4*Xro4e
+
+PATH: 
+
+----- Web Directory -----
+DIRECTORY: 
+
+-----WordPress Admin --------
+USER:  Wintercrest_gka1ey
+PASS: Joksan177!
