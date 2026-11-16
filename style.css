@@ -1,3 +1,9 @@
+/*
+Theme Name: Mountain Crest City
+Author: Ana Pinto
+Description: Custom responsive WordPress theme for Mountain Crest City.
+Version: 1.0
+*/
 
 /* BRAND VARIABLES */
 :root {
@@ -9,7 +15,7 @@
 }
 
 /* GLOBAL RESET & BASE STYLES */
-* {
+*, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -60,9 +66,11 @@ body {
 .mobile-menu-btn {
   display: none;
   background: none;
-  border: none;
-  font-size: 26px;
+  border: 1px solid #D4A757;
   color: var(--color-primary);
+  font-size: 26px;
+  padding: 2px 8px;
+  border-radius: 4px;
   cursor: pointer;
 }
 
@@ -92,9 +100,10 @@ body {
   transition: color 0.2s ease;
 }
 
+.main-nav a:hover,
 .main-nav a.active,
-.main-nav a:hover {
-  color: var(--color-secondary);
+.main-nav li.current_page_item a {
+  color: #D4A757;
 }
 
 /* MAIN CONTENT AREA */
