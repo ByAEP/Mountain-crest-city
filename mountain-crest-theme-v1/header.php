@@ -24,7 +24,7 @@
                 </a>
                 <span class="site-title"><?php bloginfo( 'name' ); ?></span>
             </div>
-            <button class="mobile-menu-btn" aria-label="Toggle Menu" onclick="document.querySelector('.main-nav').classList.toggle('open')">&#9776;</button>
+            <button class="mobile-menu-btn" aria-label="Toggle Menu">&#9776;</button>
         </div>
 
         <nav class="main-nav">

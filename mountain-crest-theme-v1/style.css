@@ -109,6 +109,7 @@ img {
 }
 
 /* Main Content Area */
+main,
 .content-container {
     max-width: 1100px;
     margin: 0 auto;

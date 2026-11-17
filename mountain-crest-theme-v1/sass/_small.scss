@@ -85,12 +85,15 @@ body {
     font-weight: 700;
 }
 
-/* Main Content Area */
+
+//* Main Content Area */
+main,
 .content-container {
     max-width: 1100px;
     margin: 0 auto;
     padding: 2rem 1.25rem;
 }
+
 
 h1 {
     color: $primary-color;
