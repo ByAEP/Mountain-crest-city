@@ -240,4 +240,8 @@ ul.checklist li::before {
   .footer-container {
     grid-template-columns: repeat(3, 1fr);
   }
+}
+.swiper-slide img {
+  width: 100%;
+  height: auto;
 }/*# sourceMappingURL=styles.css.map */

@@ -24,7 +24,8 @@
             <p>&copy; <span id="year"></span> Mountain Crest City &bull; Ana Pinto</p>
         </div>
     </footer>
-
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/scripts/swiper.js"></script>
     <?php wp_footer(); ?>
 </body>
 </html>
