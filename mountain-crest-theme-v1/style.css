@@ -249,3 +249,26 @@ ul.checklist li::before {
         grid-template-columns: repeat(3, 1fr);
     }
 }
+/***hero video***/
+.hero-video {
+  position: relative;
+}
+.hero-video video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.hero-video a {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  padding: 0.7rem 1rem;
+  text-decoration: none;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+  color: #1A2B2C;
+  background-color: #D4A757;
+  border: 1px solid #1A2B2C;
+  border-radius: 10px;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.45);
+}
