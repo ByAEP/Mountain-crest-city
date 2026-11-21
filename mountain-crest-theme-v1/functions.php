@@ -1,6 +1,6 @@
 <?php
 function mountaincrest_enqueue_assets() {
-    wp_enqueue_style( 'mountaincrest-style', get_stylesheet_uri(), array(), '1.0' );
+wp_enqueue_style( 'mountaincrest-style', get_stylesheet_uri(), array(), time() );
 }
 add_action( 'wp_enqueue_scripts', 'mountaincrest_enqueue_assets' );
 

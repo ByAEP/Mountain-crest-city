@@ -1,0 +1,88 @@
+/* Council Members / Employees Grid */
+.employees {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+
+  section {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+    background-color: #ffffff;
+    border: 1px solid #d9d9d9;
+    border-top: 4px solid #D4A757;
+    border-radius: 6px;
+    padding: 1.25rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+
+    h2 {
+      color: #1A2B2C;
+      font-size: 1.2rem;
+      margin: 0 0 0.75rem;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 4px;
+      display: block;
+    }
+
+    p.email,
+    p.phone {
+      position: relative;
+      padding-left: 1.75rem;
+      margin: 0 0 0.65rem;
+      word-break: break-word;
+
+      &::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0.15rem;
+        width: 1.15rem;
+        height: 1.15rem;
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
+    }
+
+    p.email::before {
+      background-image: url("images/envelope.svg");
+    }
+
+    p.phone::before {
+      background-image: url("images/phone.svg");
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 1.2rem;
+
+      li {
+        margin-bottom: 0.45rem;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 32rem) {
+  .employees section {
+    grid-template-columns: 1fr 1fr;
+
+    div:nth-child(3) {
+      grid-column: span 2;
+    }
+  }
+}
+
+@media only screen and (min-width: 54rem) {
+  .employees section {
+    grid-template-columns: 1fr 1fr 1.4fr;
+
+    div:nth-child(3) {
+      grid-column: span 1;
+    }
+  }
+}
